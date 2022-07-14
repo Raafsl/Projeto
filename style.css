@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 260px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#wellcome{
+    position: absolute;
+    bottom: 0;
+    background-color: gray;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#name{
+    font-size: 50px;
+    font-family: "Arima";
+}
+
+#bio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:50px;
+    font-family: "Arima";
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    z-index:10;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.links{
+   display: inline;
+   padding-right: 25px;
+   padding-left:33;
+   font-family: fantasy;
+   font-size: 20px;
+}
+
+.links:hover{
+    font-size: 27px;
+    text-decoration: underline; 
+}
+
+#hadder{
+background-image: url("Imagem-legal.jpg");
+}
+
+#writings a{
+    text-decoration: underline !important;
+    color: green !important;
+}
+
+#contact {
+    background: lightgrey;
+}
+
+a {
+    text-decoration: none;
+}
+
+#writings a {
+    text-decoration: underline !important;
+    color: green !important;
+}
+
+#contact{
+    background:lightgray;
+}
+
+#contact iframe{
+    width: 100%;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
